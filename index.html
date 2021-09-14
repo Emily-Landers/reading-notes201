@@ -2,26 +2,44 @@
 <html>
     <head>
         <title>First Lab</title>
+        <style>
+            h1 {
+                background-color: blanchedalmond;
+                color: blueviolet;
+            }
+        </style>
     </head>
     <body>  
         <main>
           <header>
             <h1>Class 1 Lab</h1>
           </header>
-<ol>
-    <p>
-         <li>What is your favorite color?</li>
+    <p style="color: purple; background-color: red;">
+         What is your favorite color?
     </p>
-    <p>
-        <li>What is your favorite animal?</li>
+    <p style="color: pink; background-color: purple;">
+        What is your favorite animal?
     </p>
-    <p>
-        <li>Is this a good filler question?</li>
+    <p style="color: red; background-color: blue;">
+        Is this a good filler question?
     </p>
-    <p>
-        <li>What is your name?</li>
+    <p style="color: blue; background-color: pink;">
+        What is your name?
     </p>
-</ol>
+<footer>
+    this is the bottom of the page
+</footer>
         </main>
     </body>
+    <script>
+      let username = prompt('what is your name?'); 
+
+        alert('your name is ' + username);
+    let color = prompt('What is your favorite color');
+        alert(color + ' is also my favorite color');
+    let animal = prompt('What is your favorite animal?');
+        alert('sharks are better than ' + animal);
+    let ufc = prompt('Who is the best UFC fighter?');
+        alert(ufc + ' is a punk, Carlos Condit is better'); 
+    </script>
 </html>
